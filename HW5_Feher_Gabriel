@@ -1,0 +1,173 @@
+matrix1=matrix(c(1,2,3,4,5,6,), nrow=3, ncol=2)
+Error in c(1, 2, 3, 4, 5, 6, ) : argument 7 is empty
+> matrix1=matrix(c(1,2,3,4,5,6,), nrow=3, ncol=2)
+Error in c(1, 2, 3, 4, 5, 6, ) : argument 7 is empty
+> matrix1=matrix(c(1,2,3,4,5,6), nrow=3, ncol=2)
+> matrix1=matrix(c(1,2,3,4,5,6), nrow=3, ncol=2)
+> matrix1
+     [,1] [,2]
+[1,]    1    4
+[2,]    2    5
+[3,]    3    6
+> matrix1
+     [,1] [,2]
+[1,]    1    4
+[2,]    2    5
+[3,]    3    6
+> matrix1=matrix(c(1,2,3,4,5,6), nrow=2, ncol=3)
+> matrix1=matrix(c(1,2,3,4,5,6), nrow=2, ncol=3)
+> matrix1
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+> matrix1
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+> matrix1=matrix(c(7,2,9,4,12,13), nrow=2, ncol=3)
+> matrix1=matrix(c(7,2,9,4,12,13), nrow=2, ncol=3)
+> matrix1
+     [,1] [,2] [,3]
+[1,]    7    9   12
+[2,]    2    4   13
+> matrix1
+     [,1] [,2] [,3]
+[1,]    7    9   12
+[2,]    2    4   13
+> matrix2=matrix(c(1,2,3,4,5,6,7,8,9), nrow=3, ncol=3)
+> matrix2=matrix(c(1,2,3,4,5,6,7,8,9), nrow=3, ncol=3)
+> matrix2
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+> matrix2
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+> matrix2=matrix(c(1,2,3,12,13,14,19,20,21), nrow=3, ncol=3)
+> matrix2=matrix(c(1,2,3,12,13,14,19,20,21), nrow=3, ncol=3)
+> matrix2
+     [,1] [,2] [,3]
+[1,]    1   12   19
+[2,]    2   13   20
+[3,]    3   14   21
+> matrix2
+     [,1] [,2] [,3]
+[1,]    1   12   19
+[2,]    2   13   20
+[3,]    3   14   21
+> matrix1*matrix2
+> matrix1*matrix2
+Error in matrix1 * matrix2 : non-conformable arrays
+Error in matrix1 * matrix2 : non-conformable arrays
+> matrix1%%matrix2
+Error in matrix1%%matrix2 : non-conformable arrays
+> matrix1%%matrix2
+Error in matrix1%%matrix2 : non-conformable arrays
+> matrix1%*%matrix2
+> matrix1%*%matrix2
+     [,1] [,2] [,3]
+[1,]   61  369  565
+[2,]   49  258  391
+     [,1] [,2] [,3]
+[1,]   61  369  565
+[2,]   49  258  391
+> Data_Frame = data.fram ()
+Error in data.fram() : could not find function "data.fram"
+> Data_Frame = data.fram ()
+Error in data.fram() : could not find function "data.fram"
+> Data_Frame = data.fram (id = c(1,2,3,4,5),name = c(Peter, Amy, Ryan, Gary, Michelle), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+Error in data.fram(id = c(1, 2, 3, 4, 5), name = c(Peter, Amy, Ryan, Gary,  : 
+  could not find function "data.fram"
+> Data_Frame = data.fram (id = c(1,2,3,4,5),name = c(Peter, Amy, Ryan, Gary, Michelle), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+Error in data.fram(id = c(1, 2, 3, 4, 5), name = c(Peter, Amy, Ryan, Gary,  : 
+  could not find function "data.fram"
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c(Peter, Amy, Ryan, Gary, Michelle), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+Error in data.frame(id = c(1, 2, 3, 4, 5), name = c(Peter, Amy, Ryan,  : 
+  object 'Peter' not found
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c(Peter, Amy, Ryan, Gary, Michelle), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+Error in data.frame(id = c(1, 2, 3, 4, 5), name = c(Peter, Amy, Ryan,  : 
+  object 'Peter' not found
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c("Peter", "Amy", "Ryan", "Gary", "Michelle"), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c("Peter", "Amy", "Ryan", "Gary", "Michelle"), salary = c(623.30, 515.20, 611.00, 729.00, 843.25))
+> Data_Frame
+> Data_Frame
+   id     name salary
+1  1    Peter 623.30
+2  2      Amy 515.20
+3  3     Ryan 611.00
+4  4     Gary 729.00
+5  5 Michelle 843.25
+ id     name salary
+1  1    Peter 623.30
+2  2      Amy 515.20
+3  3     Ryan 611.00
+4  4     Gary 729.00
+5  5 Michelle 843.25
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c("Peter", "Amy", "Ryan", "Gary", "Michelle"), salary = c(623.30, 515.20, 611.00, 729.00, 843.25), department = c("IT", "Finance","Computer Science","HR", "Custodial"))
+> Data_Frame = data.frame (id = c(1,2,3,4,5),name = c("Peter", "Amy", "Ryan", "Gary", "Michelle"), salary = c(623.30, 515.20, 611.00, 729.00, 843.25), department = c("IT", "Finance","Computer Science","HR", "Custodial"))
+> Data_Frame
+  id     name salary       department
+1  1    Peter 623.30               IT
+2  2      Amy 515.20          Finance
+3  3     Ryan 611.00 Computer Science
+4  4     Gary 729.00               HR
+5  5 Michelle 843.25        Custodial
+> Data_Frame
+  id     name salary       department
+1  1    Peter 623.30               IT
+2  2      Amy 515.20          Finance
+3  3     Ryan 611.00 Computer Science
+4  4     Gary 729.00               HR
+5  5 Michelle 843.25        Custodial
+> data_frame[-c(1,2,3,5),-c(2,3)]
+Error: object 'data_frame' not found
+> data_frame[-c(1,2,3,5),-c(2,3)]
+Error: object 'data_frame' not found
+> data_frame_2 = data_frame[-c(1,3,5),-c(2,3)]
+> data_frame_2 = data_frame[-c(1,3,5),-c(2,3)]
+Error: object 'data_frame' not found
+Error: object 'data_frame' not found
+> data_frame_2 = Data_Frame[-c(1,3,5),-c(2,3)]
+> data_frame_2 = Data_Frame[-c(1,3,5),-c(2,3)]
+> data_frame_2
+  id department
+2  2    Finance
+4  4         HR
+> data_frame_2
+  id department
+2  2    Finance
+4  4         HR
+> data_frame_2 = Data_Frame[-c(1,2,3,5),-c(2,3)]
+> data_frame_2 = Data_Frame[-c(1,2,3,5),-c(2,3)]
+> data_frame_2
+  id department
+4  4         HR
+> data_frame_2
+  id department
+4  4         HR
+> x= c("Peter","Gary","Michelle")
+> x= c("Peter","Gary","Michelle")
+> y= c(623.30,729.00,843.25)
+> y= c(623.30,729.00,843.25)
+> barplot(y,names.arg = x)
+> barplot(y,names.arg = x)
+> x=(515.20,611.00,843.25)
+Error: unexpected ',' in "x=(515.20,"
+> x=(515.20,611.00,843.25)
+Error: unexpected ',' in "x=(515.20,"
+> x=c(515.20,611.00,843.25)
+> x=c(515.20,611.00,843.25)
+> mylabel= c("amy","ryan","michelle")
+> mylabel= c("amy","ryan","michelle")
+> colors=("red","blue","green")
+Error: unexpected ',' in "colors=("red","
+> colors=("red","blue","green")
+Error: unexpected ',' in "colors=("red","
+> colors=c("red","blue","green")
+> colors=c("red","blue","green")
+> pie(x, label = mylabel, main = "Salary Chart", col = colors)
+> pie(x, label = mylabel, main = "Salary Chart", col = colors)
+> 
